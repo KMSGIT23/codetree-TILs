@@ -5,5 +5,5 @@ for i in range(2):
 print(sum(a[0]) / 4, sum(a[1]) / 4, '')
 for i in range(4):
     print((a[0][i] + a[1][i]) / 2, end = ' ')
-print('\n')
+
 print((sum(a[0]) + sum(a[1])) / 8)
