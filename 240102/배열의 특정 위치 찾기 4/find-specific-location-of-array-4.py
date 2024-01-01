@@ -1,6 +1,6 @@
 a = list(map(int, input().split()))
 b = []
 for i in a:
-    if i % 2 == 0:
+    if i % 2 == 0 and i != 0:
         b.append(i)
 print(len(b), sum(b))
