@@ -1,9 +1,9 @@
-arr = list(map(int, input().split()))
+a = list(map(int, input().split()))
 s = []
 t = []
 for i in range(1, 11):
     if i % 2 == 0:
-        s.append(i)
+        s.append(a[i-1])
     if i % 3 == 0:
-        t.append(i)
+        t.append(a[i-1])
 print("%d %.1f"%(sum(s), sum(t) / len(t)))
