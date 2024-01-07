@@ -1,2 +1,2 @@
 a, b = 3, 'C'
-print(str(a)+'!...!'+b)
+print(b+'!.....!'+str(a))
