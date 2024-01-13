@@ -1,7 +1,7 @@
 n = int(input())
-if n <= 3000:
-    print('book')
-elif n <= 1000:
+if 1000 > n:
+    print('no')
+elif 3000 > n:
     print('mask')
 else:
-    print('no')
+    print('book')
