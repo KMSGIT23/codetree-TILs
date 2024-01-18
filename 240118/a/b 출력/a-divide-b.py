@@ -8,8 +8,7 @@ for _ in range(19):
     print(a//b, end='')
     a %= b
 '''
-arr=input().split()
-a, b= int(arr[0]), int(arr[1])
+a, b= map(int, input().split())
 
 print(f'{a//b}.', end='')
 
