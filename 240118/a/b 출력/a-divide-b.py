@@ -1,6 +1,6 @@
 a, b = map(int, input().split())
-c = round(a / b, 1)
-print(c, end = '')
+c = str(a / b)
+print(c[:3], end = '')
 a = a % b * 10 % b
 for _ in range(19):
     a *= 10
