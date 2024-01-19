@@ -1,6 +1,6 @@
 n = int(input())
 for i in range(1, n + 1):
-    if i % 3 == 0 or str(i) in '3' or str(i) in '6' or str(i) in '9':
+    if i % 3 == 0 or list(str(i)) in '3' or list(str(i)) in '6' or list(str(i)) in '9':
         print(0, end = ' ')
     else:
         print(i, end = ' ')
