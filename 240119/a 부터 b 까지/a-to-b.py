@@ -1,8 +1,9 @@
 a, b = map(int, input().split())
-i = a
-while i <= b:
-    print(i, end = ' ')
-    if i % 2 == 0:
-        i += 3
+for i in range(a, b + 1):
+    if a > b:
+        break
+    print(a, end = ' ')
+    if a % 2 == 0:
+        a += 3
     else:
-        i *= 2
+        a *= 2
