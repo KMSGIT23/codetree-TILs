@@ -6,9 +6,7 @@ while True:
         if n != 0:
             last.append(n)
         else:
-            break  # Exit the loop when n is 0
+            for i in last:
+                print(i)
     except EOFError:
-        break  # Exit the loop if EOFError occurs (end of input)
-
-for i in last:
-    print(i)
+        break
