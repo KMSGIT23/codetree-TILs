@@ -8,5 +8,5 @@ while True:
         else:
             for i in last:
                 print(i)
-    except EOFError:
+    except:
         break
