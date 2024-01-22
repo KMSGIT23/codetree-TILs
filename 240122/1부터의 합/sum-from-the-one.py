@@ -4,4 +4,4 @@ for i in range(1, 101):
     if n <= cnt:
         print(i)
         break
-    cnt += i
+    cnt += 1
