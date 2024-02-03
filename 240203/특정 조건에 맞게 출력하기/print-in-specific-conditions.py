@@ -1,10 +1,4 @@
-a = []
-while True:
-    n = int(input())
-    if n == 0:
-        break
-    a.append(n)
-
+a = list(map(int, input().split()))
 for i in a:
     if i % 2 == 1:
         print(i + 3, end = ' ')
