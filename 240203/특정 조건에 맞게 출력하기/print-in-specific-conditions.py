@@ -1,6 +1,7 @@
 a = list(map(int, input().split()))
-a.pop()
 for i in a:
+    if i == 0:
+        break
     if i % 2 == 1:
         print(i + 3, end = ' ')
     else:
