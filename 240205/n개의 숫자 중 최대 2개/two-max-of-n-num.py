@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+print(max(a), end = ' ')
+a.remove(max(a))
+print(max(a))
