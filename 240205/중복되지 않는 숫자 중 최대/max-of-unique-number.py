@@ -1,13 +1,10 @@
 n = int(input())
 a = list(map(int, input().split()))
+b = [0 for i in range(n)]
+for i in a:
+    b[i] += 1
+m = -1
 for i in range(n):
-    if a == []:
-        break
-    m = max(a)
-    a.remove(max(a))
-    if m in a:
-        a.remove(max(a))
-        m = -1
-    else:
-        break
+    if b[i] == 1 and m < i:
+        m = i
 print(m)
