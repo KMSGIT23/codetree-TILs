@@ -5,7 +5,7 @@ anw = 0
 for i in b:
     for j in a:
         if i == j:
-            a.remove(j)
+            del j
             anw = 1
             break
         else:
