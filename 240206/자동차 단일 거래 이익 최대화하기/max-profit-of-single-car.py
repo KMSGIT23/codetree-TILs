@@ -1,7 +1,9 @@
 n = int(input())
 a = list(map(int, input().split()))
-a = a[a.index(min(a)):]
-if len(a) == 1:
-    print(0)
-else:
-    print(max(a) - min(a))
+m = 0
+for i in range(n):
+    for j in range(n):
+        if i < j:
+            if a[j] - a[i] > m:
+                m = a[j] - a[i]
+print(m)
