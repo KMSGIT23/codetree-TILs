@@ -8,9 +8,10 @@ for i in range(len(a)):
         n = i
         f = a[i]
 b.append(a[n:])
+a = []
 n = 0
 for i in b:
-    n += len(i)
-print(n)
-for i in b:
-    print(i[0]+str(len(i)), end = '')
+    a.append(i[0]+str(len(i)))
+a = ''.join(a)
+print(len(a))
+print(a)
