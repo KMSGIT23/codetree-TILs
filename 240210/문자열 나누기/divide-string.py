@@ -9,5 +9,4 @@ for i in range(len(s)):
     if i % 5 == 0 and i != 0:
         print(s[r:i])
         r = i
-        b.append(s[r:i])
-print(len(b))
+print(s[r:])
