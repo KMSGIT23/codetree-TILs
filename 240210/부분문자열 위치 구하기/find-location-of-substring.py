@@ -5,6 +5,6 @@ if b in a:
         if a[i-2:i] == b:
             print(i-2)
 elif b == a:
-    print(b)
+    print(0)
 else:
     print(-1)
