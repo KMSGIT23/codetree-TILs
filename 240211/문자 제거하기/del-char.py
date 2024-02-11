@@ -1,8 +1,10 @@
 s = input()
-while len(s) != 2:
+while len(s) != 1:
     s = list(s)
     n = int(input())
-    s.remove(s[n])
+    if n > len(s):
+        s.pop()
+    else:
+        s.remove(s[n])
     s = ''.join(s)
     print(s)
-print(s[0])
