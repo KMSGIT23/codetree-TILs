@@ -5,6 +5,6 @@ while len(s) != 1:
     if n >= len(s):
         s.pop()
     else:
-        s.remove(s[n])
+        del s[n]
     s = ''.join(s)
     print(s)
