@@ -1,5 +1,5 @@
 w = list(input())
 w.remove(w[1])
-w.remove(w[-2])
+w.remove(w[len(w)-2])
 w = ''.join(w)
 print(w)
