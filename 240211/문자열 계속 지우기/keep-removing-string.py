@@ -1,10 +1,8 @@
 a = input()
 b = input()
 while b in a:
-    for i in range(len(b), len(a)+len(b)):
-            if a[i-len(b):i] == b:
-                a = list(a)
-                del a[i-len(b)]
-                del a[i-2]
-                a = ''.join(a)
+    i = a.index(b)
+    a = list(a)
+    del a[i:i+len(b)]
+    a = ''.join(a)
 print(a)
