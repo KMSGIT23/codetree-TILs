@@ -6,4 +6,4 @@ for i in range(len(a)):
         break
     a = a[-1] + a[:-1]
     cnt += 1
-print(cnt if cnt != 0 else -1)
+print(cnt if cnt != len(a) else -1)
