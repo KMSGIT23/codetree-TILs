@@ -1,6 +1,6 @@
 n, m = map(int, input().split())
-a = [[0] * n for _ in range(n)]
-for i in range(n):
+a = [[0] * m for _ in range(n)]
+for i in range(m):
     if i % 2 == 0:
         cnt = n * (i + 1) - (n - 1)
     else:
