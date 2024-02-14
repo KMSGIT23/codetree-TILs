@@ -1,7 +1,9 @@
 a = input()
 b = input()
 cnt = 0
-while a != b:
+for i in range(len(a)):
+    if a == b:
+        break
     a = a[-1] + a[:-1]
     cnt += 1
-print(cnt)
+print(cnt if cnt != 0 else -1)
