@@ -3,7 +3,7 @@
 # 🥇 실전 훈련
 |총 문제 수|티어|유형|
 |---:|---|---|
-|9|![Bronze5][b5] ~ ![Bronze5][b5]|`Operator` `I/O` `Iteration` `Conditional`|
+|9|![Bronze5][b5] ~ ![Bronze5][b5]|`Operator` `Iteration` `Conditional` `I/O`|
 
 |기록분류|이름|티어|유형|상태|최근 제출 코드|
 |---|---|---|---|---|---|
