@@ -1,5 +1,7 @@
-n, m = mpa(int, input().split())
-for i in range(1, n*m+1):
-    for i in range(m):
-        print(i, end = ' ')
+n, m = map(int, input().split())
+cnt = 1
+for i in range(n):
+    for j in range(m):
+        print(cnt, end = ' ')
+        cnt += 1
     print()
