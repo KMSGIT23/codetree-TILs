@@ -9,4 +9,4 @@ while i > n:
     i -= cnt
     cnt += 2
 
-print(c, (c * (c + 1)) // 2 * 2)
+print(c, c * (c + 1))
