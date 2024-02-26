@@ -6,4 +6,4 @@ for i in a:
         s[i // 10 - 1] += 1
 for i in range(n-1, 0, -1):
     if s[i] != 0:
-        print(i+1, '-', s[i])
+        print((i + 1) * 10, '-', s[i])
