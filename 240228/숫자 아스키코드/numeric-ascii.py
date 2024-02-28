@@ -1,7 +1,7 @@
 n = int(input())
 for i in range(n):
     c = input()
-    try:
-        print(chr(int(c)))
-    except:
+    if ord(c) < 65:
         print(ord(c))
+    else:
+        print(c)
