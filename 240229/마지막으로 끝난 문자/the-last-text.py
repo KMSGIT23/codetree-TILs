@@ -7,6 +7,6 @@ c = input()
 for i in a:
     if i[-1] == c:
         s.append(i)
-print(len(ss))
+print(len(s))
 for i in s:
     print(i)
