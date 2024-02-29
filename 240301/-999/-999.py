@@ -1,3 +1,7 @@
 a = list(map(int, input().split()))
-del a[-1]
-print(max(a), min(a))
+n = []
+for i in a:
+    if i == -999:
+        break
+    n.append(i)
+print(max(n), min(n))
