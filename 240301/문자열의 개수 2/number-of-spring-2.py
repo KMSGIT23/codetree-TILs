@@ -7,5 +7,5 @@ for i in range(200):
         break
 print(len(a))
 for i in range(len(a)):
-    if i % 2 == 0:
+    if i % 2 == 0 and a[i] != '0':
         print(a[i])
