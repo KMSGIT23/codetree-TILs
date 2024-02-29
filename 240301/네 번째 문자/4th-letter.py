@@ -2,7 +2,9 @@ a, b = input().split()
 a = int(a)
 s = []
 for i in range(a):
-    s.append(if b in input() else continue)
+    c = input()
+    if b in c:
+        s.append(c)
 print(len(s))
 for i in s:
     print(i)
